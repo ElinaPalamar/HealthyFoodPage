@@ -1,0 +1,557 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*, *:before, *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body{
+	height: 100%;
+	width: 100%;
+	font-style: 100%;
+	line-height: 1;
+	font-style: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit;}
+
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style-type: none;}
+img{vertical-align: top;}
+
+h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
+
+main {
+    height: 3000px;
+    background-color:#191919;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+#headerContainer {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid rgb(211, 211, 211, 0.3);
+}
+
+#textLogo {
+    color: #34C759;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#logoImg {
+    display: inline-block;
+    position: relative;
+    top: 20px;
+}
+
+#logoContainer {
+    width: 290px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 70px;
+}
+
+#topNavList {
+    line-height: 70px;
+    color: white;
+    font-weight: 600;
+}
+
+.navList {
+    display: inline-block;
+    letter-spacing: 1px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#firstPage {
+    display: flex;
+    float: left;
+    height: 1000px;
+    width: 100%;
+    background-image: url(img/topBackground.png);
+    background-size: cover;
+}
+
+#firstPageContainer {
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 500px;
+    margin-top: 120px;
+}
+
+#topThreeTexts {
+    padding: 20px;
+    height: 260px;
+    text-align: center;
+}
+
+#mainText {
+    color: white;
+    font-size: 60px;
+    word-spacing: 6px;
+}
+
+.greyLittleText {
+    color: lightgrey;
+    width: 610px;
+    font-size: 12px;
+    margin-left: 10%;
+    margin-top: 16px;
+    word-spacing: 2px;
+    line-height: 18px;
+}
+
+#orderNowText {
+    background-color: #34C759;
+    width: 160px;
+    height: 54px;
+    line-height: 54px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 46px;
+    margin-left: 40%;
+}
+
+.topIconText {
+    float: left;
+    text-align: center;
+    width: 220px;
+    height: 100px;
+    line-height: 30px;
+    font-size: 12px;
+    margin: 3%;
+    margin-top: 10%;
+    color: white;
+}
+
+.littleGreyCardText {
+    color: lightgrey;
+}
+
+#secondPage {
+    position: relative;
+    top: -300px;
+    display: flex;
+    float: left;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+}
+
+#secondPageContainer {
+    text-align: center;
+    background: #252525;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    width: 1000px;
+    height: 600px;
+}
+
+#backMainText {
+    font-size: 80px;
+    color: #303030;
+    font-weight: 900;
+    margin-bottom: 2px;
+    margin-top: 80px;
+    letter-spacing: 10px;
+}
+
+#forwardMainText {
+    color: white;
+    position: relative;
+    top: -74px;
+    font-size: 30px;
+    line-height: 60px;
+    letter-spacing: 5px;
+}
+
+#secondPageLittleText {
+    position: relative;
+    top: -30px;
+    color: lightgray;
+    margin-left: 15%;
+    width: 700px;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+#secondPageNav {
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 10%;
+    width: 800px;
+    height: 220px;
+}
+
+#secondPageArrowL {
+    width: 60px;
+    height: 60px;
+    background-color: #262626;
+    border: 2px solid #303030;
+    border-radius: 50%;
+    line-height: 60px;
+}
+
+#secondPageImg1 {
+    position: relative;
+    top: 35%;
+}
+
+#secondPagePhoto1 {
+    float: left;
+    background-image: url(img/photoScroll1.png);
+    background-size: cover;
+    width: 280px;
+    height: 220px;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+}
+
+#secondPagePhoto2 {
+    float: left;
+    background-image: url(img/photoScroll2.png);
+    background-size: cover;
+    width: 280px;
+    height: 220px;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+}
+
+#secondPageArrowR {
+    float: left;
+    width: 60px;
+    height: 60px;
+    background-color: #262626;
+    border: 2px solid #303030;
+    border-radius: 50%;
+}
+
+#secondPageImg2 {
+    position: relative;
+    top: 35%;
+    transform: rotate(180deg);
+}
+
+#thirdPage {
+    position: relative;
+    top: -220px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    float: left;
+    justify-content: center;
+    text-align: center;
+}
+
+#thirdPageContainer {
+    text-align: center;
+    width: 1200px;
+    height: 500px;
+}
+
+#thirdBackText {
+    font-size: 80px;
+    color: #303030;
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+
+#thirdForwardText {
+    position: relative;
+    top: -70px;
+    color: white;
+    font-size: 30px;
+    line-height: 60px;
+    letter-spacing: 5px;
+}
+
+#thirdPageCards {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 240px;
+}
+
+.thirdCard {
+    background-color: #252525;
+    width: 270px;
+    height: 240px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+.thirdCard1 {
+    background-color: #34C759;
+    width: 270px;
+    height: 240px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+.cardMainText {
+    color: white;
+    text-align: left;
+    margin: 20px;
+    font-weight: 400;
+    font-size: 22px;    
+}
+
+.cardMainText1 {
+    color: black;
+    text-align: left;
+    margin: 20px;
+    font-weight: 400;
+    font-size: 22px;    
+}
+
+.cardLittleText {
+    color: lightgrey;
+    text-align: left;
+    margin: 20px;
+    margin-top: 45px;
+}
+
+.cardLittleText1 {
+    color: black;
+    text-align: left;
+    margin: 20px;
+    margin-top: 45px;
+}
+
+#line1 {
+    position: relative;
+    top: -176px;
+    left: 20px;
+    border: 2px solid black;
+    width: 60px;
+    height: 0px;
+}
+
+#line2 {
+    position: relative;
+    top: -180px;
+    left: 330px;
+    border: 2px solid #34C759;
+    width: 60px;
+    height: 0px;
+}
+
+#line3 {
+    position: relative;
+    top: -184px;
+    left: 640px;
+    border: 2px solid #34C759;
+    width: 60px;
+    height: 0px;
+}
+
+#line4 {
+    position: relative;
+    top: -188px;
+    left: 950px;
+    border: 2px solid #34C759;
+    width: 60px;
+    height: 0px;
+}
+
+#mainLine {
+    position: relative;
+    top: -300px;
+    left: 570px;
+    border: 2px solid #34C759;
+    width: 60px;
+    height: 0px;
+}
+
+#forthPage {
+    position: relative;
+    top: -260px;
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    float: left;
+    justify-content: center;
+    text-align: center;
+}
+
+#forthPageContainer {
+    width: 1000px;
+    height: 1100px;
+    text-align: center;
+}
+
+#backDishesText {
+    font-size: 80px;
+    color: #303030;
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+
+#forwardDishesText {
+    position: relative;
+    top: -70px;
+    color: white;
+    font-size: 30px;
+    line-height: 60px;
+    letter-spacing: 5px;
+}
+
+#secondCardsContainer {
+    display: grid;
+    grid-template-columns: 340px 340px 340px;
+    grid-template-rows: 150px 150px;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 1000px;
+    height: 620px;
+}
+
+.secondCards {
+    width: 320px;
+    height: 440px;
+    background: #252525;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 6px; 
+    text-align: left;
+}
+
+.forthPhotos {
+    width: 320px;
+    height: 224px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.forthPhotos1 {
+    background-image: url(img/gal1.png);
+    background-size: cover;
+}
+
+.forthPhotos2 {
+    background-image: url(img/gal2.png);
+    background-size: cover;
+}
+
+.forthPhotos3 {
+    background-image: url(img/gal3.png);
+    background-size: cover;
+}
+
+.forthPhotos4 {
+    background-image: url(img/gal4.png);
+    background-size: cover;
+}
+
+.forthPhotos5 {
+    background-image: url(img/gal5.png);
+    background-size: cover;
+}
+
+.forthPhotos6 {
+    background-image: url(img/gal6.png);
+    background-size: cover;
+}
+
+.featuredMealText {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 30px;
+    color: #D9D9D9;
+    margin: 20px;
+    margin-bottom: 2px;
+}
+
+.servedText {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #A4A8B2;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.choiceText {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #85878C;
+    margin-left: 20px;
+    margin-right: 36px;
+    letter-spacing: -0.1625px;
+}
+
+.starsContainer {
+    display: flex;
+    float: left;
+    margin-left: 20px;
+    margin-top: 24px;
+    width: 288px;
+    height: 20px;
+}
+
+.starImg {
+    width: 20px;
+    height: 20px;
+    line-height: 30px;
+}
+
+.starNum {
+    line-height: 24px;
+    color: white;
+    margin-left: 5px;
+}
+
+.starBtn {
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 900;
+    font-size: 10px;
+    top: -10px;
+    width: 100px;
+    height: 40px;
+    background-color: #34C759;
+    color: black;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+.starGreyBtn {
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 900;
+    font-size: 10px;
+    top: -10px;
+    width: 100px;
+    height: 40px;
+    background-color: #262626;
+    border: 2px solid #303030;
+    color: white;
+    border-radius: 30px;
+    margin-left: 20px;
+}
