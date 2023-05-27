@@ -37,7 +37,7 @@ img{vertical-align: top;}
 h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 
 main {
-    height: 3000px;
+    height: 5000px;
     background-color:#191919;
     font-family: 'Nunito Sans', sans-serif;
     letter-spacing: 2px;
@@ -554,4 +554,355 @@ main {
     color: white;
     border-radius: 30px;
     margin-left: 20px;
+}
+
+#fifthPage {
+    justify-content: center;
+    position: relative;
+    top: -230px;
+    display: flex;
+    float: left;
+    width: 100%;
+    height: 300px;
+}
+
+#fifthPageContainer {
+    width: 1000px;
+    height: 300px;
+    text-align: center;
+}
+
+#backChefsText {
+    font-size: 80px;
+    color: #303030;
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+
+#forwardChefsText {
+    position: relative;
+    top: -70px;
+    color: white;
+    font-size: 30px;
+    line-height: 60px;
+    letter-spacing: 5px;
+}
+
+#avatarsContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 92.3%;
+    height: 80px;
+}
+
+.avatarBox {
+    display: flex;
+    text-align: left;
+    float: left;
+    width: 240px;
+    height: 65px;
+}
+
+#linePhotoContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+}
+
+.fifthAvatrIcon {
+    width: 65px;
+    height: 65px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 2px solid#252525;
+}
+
+.avatarNames {
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.225px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.avatarAbout {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.15px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 15px;   
+}
+
+.fifthAvatar1 {
+    background-image: url(img/Avatar1.png);
+    background-size: cover;
+}
+
+.fifthAvatar2 {
+    background-image: url(img/Avatar2.png);
+    background-size: cover;
+}
+
+.fifthAvatar3 {
+    background-image: url(img/Avatar3.png);
+    background-size: cover;
+}
+
+#sixthPage {
+    position: relative;
+    top: -120px;
+    display: flex;
+    float: left;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 590px;
+}
+
+#sixthPageContainer {
+    width: 1000px;
+    height: 590px;
+}
+
+#backSixthText {
+    font-size: 80px;
+    color: #303030;
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+
+#forwardSixthText {
+    position: relative;
+    top: -70px;
+    color: white;
+    font-size: 30px;
+    line-height: 60px;
+    letter-spacing: 5px;
+}
+
+#sixthCenterContainer {
+    display: flex;
+    width: 100%;
+    height: 450px;
+}
+
+#sixthLeft {
+    display: flex;
+    justify-content: center;
+    width: 480px;
+    height: 450px;
+    background-image: url(img/BBQLeftPhoto.png);
+    background-size: cover;
+    border-radius: 6px;
+    color: white;
+}
+
+#sixthThreeCardsContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 520px;
+    height: 450px;
+}
+
+.sixthRightCard {
+    background-color: #252525;
+    width: 480px;
+    height: 140px;
+    border-radius: 6px;
+}
+
+#sixthLeftTextContainer {
+    width: 360px;
+    height: 450px;
+    text-align: center;
+}
+
+#breakfastText {
+    width: 100px;
+    height: 30px;
+    line-height: 32px;
+    background-color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.7; 
+    font-weight: 900;
+    font-size: 10px;  
+    letter-spacing: 1.25px;
+    margin-left: 36%;
+    margin-top: 15%;
+}
+
+#sixthDateText {
+    margin-top: 13%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+#sixthLeftAbout {
+    margin-top: 2%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+#sixthLeftName {
+    margin-top: 10%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+#eyeChatLeftContainer {
+    margin-top: 14%;
+}
+
+.eyeChatRightContainer {
+    position: relative;
+    left: 100px;
+}
+
+.chatIconOption {
+    margin-left: 18px;
+}
+
+.sixthRightCardText {
+    color: white;
+    margin: 20px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.sixthRightCardContainer {
+    color: white;
+    display: flex;
+    margin-left: 20px;
+    height: 30px;
+}
+
+.btnText {
+    position: relative;
+    top: -10px;
+    width: 80px;
+    height: 30px;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 50px;
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 30px;
+    border-radius: 5px;
+}
+
+.dataText {
+    font-weight: 400;
+    font-size: 12px;
+    color: #B3B3B3;
+    margin-left: 20px;
+}
+
+.sixthContainer2 {
+    background-image: url(img/rightCenterCardPhoto.png);
+    background-size: cover;
+}
+
+.sixthContainer3 {
+    background-color: #34C759;
+    color: black;
+}
+
+.dataText3, .rightCardText3, .blackNum {
+    color: black;
+}
+
+#seventhPage {
+    position: relative;
+    top: -50px;
+    display: flex;
+    float: left;
+    justify-content: center;
+    background-color: purple;
+    width: 100%;
+    height: 440px;
+}
+
+#seventhPageContainer {
+    text-align: center;
+    background-color: royalblue;
+    width: 1000px;
+    height: 440px;
+}
+
+#backSeventhText {
+    font-size: 80px;
+    color: #303030;
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+
+#forwardSeventhText {
+    position: relative;
+    top: -70px;
+    color: white;
+    font-size: 30px;
+    line-height: 60px;
+    letter-spacing: 5px;
+}
+
+#lastSocialContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 300px;
+    background-color: #443b3b;
+}
+
+.socialCard {
+    width: 320px;
+    height: 300px;
+    background-color: #252525;
+}
+
+.socialCardTop {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    border-bottom: 2px solid #303030;
+}
+
+.lastTopIcon {
+    position: relative;
+    top: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #303030;
+    margin-left: 15px;
+}
+
+.lastTopText {
+    width: 100px;
+    color: #BFBFBF;
+    line-height: 80px;
+    margin-left: 10px;
+}
+
+.lastTopBtn {
+    position: relative;
+    top: 18px;
+    left: 12px;
+    color: #737373;
+    line-height: 45px;
+    height: 45px;
+    width: 120px;
+    border: 2px solid #303030;
+    border-radius: 25px;
+    
 }
