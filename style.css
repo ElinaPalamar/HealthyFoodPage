@@ -37,7 +37,7 @@ img{vertical-align: top;}
 h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
 
 main {
-    height: 5000px;
+    height: 4790px;
     background-color:#191919;
     font-family: 'Nunito Sans', sans-serif;
     letter-spacing: 2px;
@@ -146,7 +146,7 @@ main {
 }
 
 .littleGreyCardText {
-    color: lightgrey;
+    color: #9c9c9c;;
 }
 
 #secondPage {
@@ -556,6 +556,42 @@ main {
     margin-left: 20px;
 }
 
+#forthPageLine {
+    position: relative;
+    right: 530px;
+    top: 90px;
+    border: 2px solid #34C759;
+    width: 60px;
+    height: 0px;
+}
+
+#fifthPageLine {
+    position: relative;
+    right: 530px;
+    top: 90px;
+    border: 2px solid #34C759;
+    width: 60px;
+    height: 0px;
+}
+
+#sixthPageLine {
+    position: relative;
+    right: 530px;
+    top: 90px;
+    border: 2px solid #34C759;
+    width: 60px;
+    height: 0px;
+}
+
+#seventhPageLine {
+    position: relative;
+    right: 530px;
+    top: 90px;
+    border: 2px solid #34C759;
+    width: 60px;
+    height: 0px;
+}
+
 #fifthPage {
     justify-content: center;
     position: relative;
@@ -828,14 +864,12 @@ main {
     display: flex;
     float: left;
     justify-content: center;
-    background-color: purple;
     width: 100%;
     height: 440px;
 }
 
 #seventhPageContainer {
     text-align: center;
-    background-color: royalblue;
     width: 1000px;
     height: 440px;
 }
@@ -861,7 +895,6 @@ main {
     justify-content: space-between;
     width: 1000px;
     height: 300px;
-    background-color: #443b3b;
 }
 
 .socialCard {
@@ -892,6 +925,7 @@ main {
     color: #BFBFBF;
     line-height: 80px;
     margin-left: 10px;
+    text-align: left;
 }
 
 .lastTopBtn {
@@ -904,5 +938,137 @@ main {
     width: 120px;
     border: 2px solid #303030;
     border-radius: 25px;
-    
+}
+
+.lastTopIconImg {
+    position: relative;
+    top: 5px;
+    width: 35px;
+}
+
+.socialCardMainData {
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: left;
+    color: #737373;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.socialCardMainText {
+    margin-left: 20px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.socialCardMainName {
+    line-height: 40px;
+    margin-left: 20px;
+    color: #34C759;
+    text-align: left;
+}
+
+.socialCardMain3 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.instaPhotos {
+    width: 106.5px;
+    height: 110px;
+    background-color: #fff;
+}
+
+.instaPhotos1 {
+    background-image: url(img/lastGal1.png);
+    background-size: cover;
+}
+
+.instaPhotos2 {
+    background-image: url(img/lastGal2.png);
+    background-size: cover;
+}
+
+.instaPhotos3 {
+    background-image: url(img/lastGal3.png);
+    background-size: cover;
+}
+
+.instaPhotos4 {
+    background-image: url(img/lastGal4.png);
+    background-size: cover;
+}
+
+.instaPhotos5 {
+    background-image: url(img/lastGal5.png);
+    background-size: cover;
+}
+
+.instaPhotos6 {
+    background-image: url(img/lastGal6.png);
+    background-size: cover;
+}
+
+#greenArrowBtn {
+    position: relative;
+    top: -190px;
+    left: 134px;
+    background-color: #34C759;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#greenArrow {
+    position: relative;
+    top: 16px;
+}
+
+#eightPage {
+    display: flex;
+    float: left;
+    background: #252525;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 260px;
+    text-align: center;
+    justify-content: center;
+}
+
+#eightPageContainer {
+    width: 100%;
+    height: 250px;
+}
+
+#lastIconsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 160px;
+    border-bottom: 2px solid #303030;
+}
+
+#lastLogoCopyrightContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.topIconTextLast {
+    position: relative;
+    top: -40px;
+}
+
+#lastCopyrightText {
+    font-weight: 400;
+    font-size: 14px;
+    color: #737373;
 }
